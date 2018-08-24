@@ -1,9 +1,13 @@
+/*
+Configuration file
+- contains all variable declarations and mixin function definitions
+*/
 * {
   box-sizing: border-box;
 }
 
 body {
-  background: url("../../img/background.jpg");
+  background: url("../img/background.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-color: #014170;
