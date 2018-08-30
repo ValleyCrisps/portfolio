@@ -2,6 +2,23 @@
 Configuration file
 - contains all variable declarations and mixin function definitions
 */
+.menu-btn {
+  position: absolute;
+  z-index: 3;
+  right: 35px;
+  top: 35px;
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+}
+
+.menu-btn .btn-line {
+  width: 28px;
+  height: 3px;
+  margin-bottom: 5px;
+  background: #FFFFFF;
+  transition: all 0.5s ease-out;
+}
+
 * {
   box-sizing: border-box;
 }
