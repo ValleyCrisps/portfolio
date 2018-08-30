@@ -1,5 +1,7 @@
 // Rotating menu buttons
 
+@import "config";
+
 .menu-btn{
   position: absolute;
   z-index: 3;
@@ -14,5 +16,25 @@
     margin-bottom: 5px;
     background: #FFFFFF;
     @include EaseOut;
+  }
+
+  //Rotate lines into X on click
+  &.close{
+    transform: rotate(180deg);
+
+    .btn-line{
+      //Rotate first line
+      &:nth-child(1){
+        transform: rotate(45deg) translate(5px, 5px);
+      }
+      //Hide second line
+      &:nth-child(2){
+        opacity: 0;
+      }
+      //Rotate third line
+      &:nth-child(3){
+        transform: rotate(-45deg) translate(7px, -6px);
+      }
+    }
   }
 }
