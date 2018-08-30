@@ -1,0 +1,18 @@
+// Rotating menu buttons
+
+.menu-btn{
+  position: absolute;
+  z-index: 3;
+  right: 35px;
+  top: 35px;
+  cursor: pointer;
+  @include EaseOut;
+
+  .btn-line{
+    width: 28px;
+    height: 3px;
+    margin-bottom: 5px;
+    background: #FFFFFF;
+    @include EaseOut;
+  }
+}
