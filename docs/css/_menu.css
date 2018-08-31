@@ -80,7 +80,7 @@
   width: 250px;
   height: 250px;
   background: url("../img/melon.jpg");
-  background-size: 250px 250px;
+  background-size: cover;
   border: solid 3px #ffaa05;
   border-radius: 50%;
 }
@@ -95,12 +95,12 @@
 }
 
 .menu .nav-item a {
-  display: inline-block;
+  display: block;
   position: relative;
   font-size: 30px;
   font-weight: 300;
   text-transform: uppercase;
-  padding: 1rem 0;
+  padding: 1rem;
   color: #FFFFFF;
   text-decoration: none;
   transition: all 0.5s ease-out;
