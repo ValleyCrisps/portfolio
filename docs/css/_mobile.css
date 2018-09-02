@@ -30,6 +30,10 @@
     width: 150px;
     height: 150px;
   }
+  .about-info {
+    grid-template-areas: "bio-image" "bio" "job-1" "job-2" "job-3";
+    grid-template-columns: 1fr;
+  }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
