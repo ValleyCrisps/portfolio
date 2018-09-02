@@ -11,7 +11,7 @@
   width: 28px;
   height: 3px;
   margin-bottom: 5px;
-  background: #FFFFFF;
+  background: #000000;
   transition: all 0.5s ease-out;
 }
 
@@ -56,7 +56,7 @@
 .menu-nav {
   margin: 0;
   padding: 0;
-  background: #013257;
+  background: #f2f2f2;
   list-style: none;
   transform: translate3d(0, -100%, 0);
   transition: all 0.5s ease-out;
@@ -67,7 +67,7 @@
 }
 
 .menu-branding {
-  background: #014170;
+  background: white;
   transform: translate3d(0, 100%, 0);
   transition: all 0.5s ease-out;
 }
@@ -101,7 +101,7 @@
   font-weight: 300;
   text-transform: uppercase;
   padding: 1rem;
-  color: #FFFFFF;
+  color: #000000;
   text-decoration: none;
   transition: all 0.5s ease-out;
 }

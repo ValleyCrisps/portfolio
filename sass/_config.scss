@@ -32,6 +32,17 @@ $background-opacity: 0.8;
   }
 }
 
+//Set text-color to dark if the background is light and to light if the background
+//is dark
+@function set-text-color($color){
+  //test lightness of background
+  @if (lightness($color)>40) {
+    @return #000000;
+  } @else {
+    @return #FFFFFF;
+  }
+}
+
 //Media query mixins
 @mixin mediaS{
   @media screen and (max-width: 500px){

@@ -7,9 +7,6 @@
   main .large-heading {
     margin-bottom: 1rem;
   }
-  main#home {
-    margin-bottom: 10vh;
-  }
   .menu-nav, .menu-branding {
     float: none;
     width: 100%;
