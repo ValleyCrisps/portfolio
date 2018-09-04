@@ -1,9 +1,22 @@
 // Responsive setup
 @import "config";
 
-//Smartphones
-@include mediaS{
+//Widescreen
+@include mediaXL{
+  main{
+    padding: 4rem;
+  }
 
+  .projects {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+//Desktops and laptops
+@include mediaL{
+  main{
+    padding: 4rem;
+  }
 }
 
 //Tablets and small laptops
@@ -60,18 +73,15 @@
     "job-3";
     grid-template-columns: 1fr;
   }
-}
 
-//Desktops and laptops
-@include mediaL{
-  main{
-    padding: 4rem;
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
-//Widescreen
-@include mediaXL{
-  main{
-    padding: 4rem;
+//Smartphones
+@include mediaS{
+  .projects{
+    grid-template-columns: 1fr;
   }
 }
