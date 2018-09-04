@@ -1,3 +1,18 @@
+@media screen and (min-width: 1171px) {
+  main {
+    padding: 4rem;
+  }
+  .projects {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1170px) {
+  main {
+    padding: 4rem;
+  }
+}
+
 @media screen and (max-width: 768px) {
   main {
     align-items: center;
@@ -34,16 +49,13 @@
     grid-template-areas: "bio-image" "bio" "job-1" "job-2" "job-3";
     grid-template-columns: 1fr;
   }
-}
-
-@media screen and (min-width: 769px) and (max-width: 1170px) {
-  main {
-    padding: 4rem;
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media screen and (min-width: 1171px) {
-  main {
-    padding: 4rem;
+@media screen and (max-width: 500px) {
+  .projects {
+    grid-template-columns: 1fr;
   }
 }
